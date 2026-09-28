@@ -4,7 +4,7 @@ Source: https://pranav-dwivedi.pages.dev/privacy
 
 ## 1. Commitment to Personal Privacy &amp; Data Ethics
 
-This personal portfolio and engineering hub (`$2`) is operated by **Pranav Pramod Dwivedi**. I believe that personal websites should respect visitor privacy by default without invasive surveillance or algorithmic monetization.
+This personal portfolio and engineering hub (`https://pranav-dwivedi.pages.dev/`) is operated by **Pranav Pramod Dwivedi**. I believe that personal websites should respect visitor privacy by default without invasive surveillance or algorithmic monetization.
 
 ## 2. Zero-Tracking Architecture
 
@@ -24,7 +24,7 @@ The match scores, athletic milestones, tournament records, and captaincy statist
 
 ## 4. AI Agent Access &amp; Content Negotiation
 
-This website provides proactive content negotiation for research agents and LLMs via `$2` and Model Context Protocol (MCP) endpoints. Agents are expected to respect robots.txt crawl rates and cache directives.
+This website provides proactive content negotiation for research agents and LLMs via `Accept: text/markdown` and Model Context Protocol (MCP) endpoints. Agents are expected to respect robots.txt crawl rates and cache directives.
 
 ## 5. Direct Contact &amp; Inquiries
 

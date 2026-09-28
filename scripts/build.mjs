@@ -73,7 +73,7 @@ function htmlToMarkdown(html, { title = '', url = '' } = {}) {
   // Basic formatting
   text = text.replace(/<(strong|b)\b[^>]*>([\s\S]*?)<\/\1>/gi, '**$2**');
   text = text.replace(/<(em|i)\b[^>]*>([\s\S]*?)<\/\1>/gi, '_$2_');
-  text = text.replace(/<code\b[^>]*>([\s\S]*?)<\/code>/gi, '`$2`');
+  text = text.replace(/<code\b[^>]*>([\s\S]*?)<\/code>/gi, '`$1`');
   text = text.replace(/<br\s*\/?>/gi, '\n');
   text = text.replace(/<p\b[^>]*>([\s\S]*?)<\/p>/gi, '\n$1\n');
   text = text.replace(/<[^>]+>/g, '');
@@ -1985,27 +1985,31 @@ Dual-discipline technologist and athlete. Creator of autonomous agent architectu
 // ------------------------------------------------------------
 // 8. MASTER BUILD EXECUTION
 // ------------------------------------------------------------
-console.log('=== BUILDING PRANAV DWIVEDI INDEPENDENT WEBSITE SUITE ===');
+export { esc, htmlToMarkdown, minifyCss, minifyJs, BASE_URL };
 
-// Minify CSS
-const cssSrc = fs.readFileSync(path.join(rootDir, 'src/css/styles.css'), 'utf8');
-const cssMin = minifyCss(cssSrc);
-fs.writeFileSync(path.join(rootDir, 'src/css/styles.min.css'), cssMin);
-console.log(`Minified styles.css: ${cssSrc.length} bytes -> ${cssMin.length} bytes`);
+if (process.argv[1] && fileURLToPath(import.meta.url).endsWith(path.basename(process.argv[1]))) {
+  console.log('=== BUILDING PRANAV DWIVEDI INDEPENDENT WEBSITE SUITE ===');
 
-// Minify JS
-const jsSrc = fs.readFileSync(path.join(rootDir, 'src/js/app.js'), 'utf8');
-const jsMin = minifyJs(jsSrc);
-fs.writeFileSync(path.join(rootDir, 'src/js/app.min.js'), jsMin);
-console.log(`Minified app.js: ${jsSrc.length} bytes -> ${jsMin.length} bytes`);
+  // Minify CSS
+  const cssSrc = fs.readFileSync(path.join(rootDir, 'src/css/styles.css'), 'utf8');
+  const cssMin = minifyCss(cssSrc);
+  fs.writeFileSync(path.join(rootDir, 'src/css/styles.min.css'), cssMin);
+  console.log(`Minified styles.css: ${cssSrc.length} bytes -> ${cssMin.length} bytes`);
 
-generateHomePage();
-generateEngineeringPage();
-generateCricketPage();
-generateAboutPage();
-generatePrivacyPage();
-generateContactPage();
-generate404Page();
-generateMachineFiles();
+  // Minify JS
+  const jsSrc = fs.readFileSync(path.join(rootDir, 'src/js/app.js'), 'utf8');
+  const jsMin = minifyJs(jsSrc);
+  fs.writeFileSync(path.join(rootDir, 'src/js/app.min.js'), jsMin);
+  console.log(`Minified app.js: ${jsSrc.length} bytes -> ${jsMin.length} bytes`);
 
-console.log('=== BUILD COMPLETE! ALL PAGES GENERATED WITH AWWWARDS-GRADE CRAFT ===');
+  generateHomePage();
+  generateEngineeringPage();
+  generateCricketPage();
+  generateAboutPage();
+  generatePrivacyPage();
+  generateContactPage();
+  generate404Page();
+  generateMachineFiles();
+
+  console.log('=== BUILD COMPLETE! ALL PAGES GENERATED WITH AWWWARDS-GRADE CRAFT ===');
+}
