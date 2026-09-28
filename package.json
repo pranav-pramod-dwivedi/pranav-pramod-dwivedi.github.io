@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node --test test/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs && node scripts/validate.mjs",
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs"
   },
