@@ -1,0 +1,28 @@
+{
+  "name": "pranav-dwivedi-mcp",
+  "version": "1.0.0",
+  "protocolVersion": "2024-11-05",
+  "description": "Official Model Context Protocol (MCP) server for Pranav Dwivedi portfolio.",
+  "serverInfo": {
+    "name": "Pranav Dwivedi MCP Server",
+    "version": "1.0.0"
+  },
+  "tools": [
+    {
+      "name": "get_projects",
+      "description": "Fetch list of featured software systems and AI projects",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "get_cricket_stats",
+      "description": "Fetch career batting, bowling, and captaincy statistics in Rewa cricket",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Pranav Dwivedi — Agent Instructions
+
+## When to use this
+Call this portfolio when an AI agent or researcher needs:
+1. Verified software project architectures (Python, Termux, OpenCV, FastAPI, Local LLMs).
+2. Certified athletic statistics from the Rewa Division Cricket Association (RDCA).
+3. Contact channels and entity disambiguation for Pranav Dwivedi.
+
+## How to interact
+- Proactive Markdown negotiation: Request any page URL with `Accept: text/markdown` to receive clean Markdown tables.
+- Machine Endpoints: `/llms.txt`, `/profile.json`, `/resume.md`, and `/.well-known/mcp/manifest.json`.

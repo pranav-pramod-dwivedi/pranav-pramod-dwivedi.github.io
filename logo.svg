@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b2ebf2"/>
+      <stop offset="25%" stop-color="#00e5ff"/>
+      <stop offset="70%" stop-color="#00b0ff"/>
+      <stop offset="100%" stop-color="#2979ff"/>
+    </linearGradient>
+
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#eceff1"/>
+      <stop offset="100%" stop-color="#b0bec5"/>
+    </linearGradient>
+
+    <linearGradient id="darkNavy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="50%" stop-color="#090e15"/>
+      <stop offset="100%" stop-color="#03060a"/>
+    </linearGradient>
+
+    <radialGradient id="spaceCore" cx="40%" cy="36%" r="65%">
+      <stop offset="0%" stop-color="#003554"/>
+      <stop offset="35%" stop-color="#051923"/>
+      <stop offset="70%" stop-color="#020d14"/>
+      <stop offset="100%" stop-color="#000407"/>
+    </radialGradient>
+
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00e5ff" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+
+    <path id="textArcTop" d="M 64 256 A 192 192 0 0 1 448 256" fill="none" />
+    <path id="textArcBottom" d="M 448 256 A 192 192 0 0 1 64 256" fill="none" />
+  </defs>
+
+  <!-- 1. Outer Rings & Circular Frame -->
+  <circle cx="256" cy="256" r="248" fill="url(#darkNavy)" stroke="url(#cyanGrad)" stroke-width="4.5" filter="url(#cyanGlow)"/>
+  <circle cx="256" cy="256" r="238" fill="none" stroke="url(#silverGrad)" stroke-width="2"/>
+  <circle cx="256" cy="256" r="172" fill="none" stroke="url(#cyanGrad)" stroke-width="2" stroke-dasharray="6 3"/>
+
+  <!-- 2. Typography Along Circular Ring Band -->
+  <text fill="url(#cyanGrad)" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" font-size="22" letter-spacing="4.5">
+    <textPath href="#textArcTop" startOffset="50%" text-anchor="middle">PRANAV DWIVEDI</textPath>
+  </text>
+
+  <text fill="#ffffff" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" font-size="17" letter-spacing="3">
+    <textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">SYSTEMS &#183; AI &#183; 3x CHAMPION</textPath>
+  </text>
+
+  <!-- Flanking Cyan Nodes on the Ring -->
+  <g fill="url(#cyanGrad)">
+    <polygon points="50,256 54,251 59,256 54,261"/>
+    <polygon points="462,256 458,251 453,256 458,261"/>
+  </g>
+
+  <!-- 3. Inner Circular Core -->
+  <circle cx="256" cy="256" r="168" fill="url(#spaceCore)" stroke="url(#cyanGrad)" stroke-width="2.5"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="rgba(0, 229, 255, 0.2)" stroke-width="1.5"/>
+
+  <!-- Precision Crosshairs and Orbit Circles -->
+  <g stroke="rgba(0, 229, 255, 0.12)" stroke-width="1">
+    <circle cx="256" cy="256" r="120" fill="none" stroke-dasharray="4 4"/>
+    <circle cx="256" cy="256" r="80" fill="none" stroke-dasharray="2 4"/>
+    <line x1="256" y1="96" x2="256" y2="416"/>
+    <line x1="96" y1="256" x2="416" y2="256"/>
+  </g>
+
+  <!-- 4. Three Championship Stars (Apex Crown) -->
+  <g fill="url(#cyanGrad)" stroke="#051923" stroke-width="1">
+    <polygon points="214,142 217,149 224,149 219,154 221,161 214,157 207,161 209,154 204,149 211,149"/>
+    <polygon points="256,130 260,139 270,139 262,145 265,153 256,148 247,153 250,145 242,139 252,139"/>
+    <polygon points="298,142 301,149 308,149 303,154 305,161 298,157 291,161 293,154 288,149 295,149"/>
+  </g>
+
+  <!-- 5. Iconic Monogram PD -->
+  <g filter="url(#textGlow)">
+    <text x="256" y="248" font-family="'Syne', 'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" font-size="82" fill="#ffffff" stroke="url(#cyanGrad)" stroke-width="3" text-anchor="middle" letter-spacing="4">PD</text>
+  </g>
+
+  <!-- 6. Neural / Systems Nodes & Geometric Subtitle -->
+  <g stroke="url(#cyanGrad)" stroke-width="1.5">
+    <line x1="190" y1="284" x2="322" y2="284"/>
+    <circle cx="190" cy="284" r="3.5" fill="#00e5ff"/>
+    <circle cx="256" cy="284" r="3.5" fill="#ffffff"/>
+    <circle cx="322" cy="284" r="3.5" fill="#00e5ff"/>
+  </g>
+
+  <!-- 7. Bottom Banner: AUTONOMOUS SYSTEMS -->
+  <path d="M 188 334 L 256 327 L 324 334 L 314 354 L 256 347 L 198 354 Z" fill="url(#darkNavy)" stroke="url(#cyanGrad)" stroke-width="1.5"/>
+  <text x="256" y="344" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="9" fill="url(#cyanGrad)" text-anchor="middle" letter-spacing="2.5">AI &#183; SYSTEMS &#183; REWA</text>
+</svg>

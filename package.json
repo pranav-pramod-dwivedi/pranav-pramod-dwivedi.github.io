@@ -1,0 +1,26 @@
+{
+  "name": "pranav-dwivedi",
+  "version": "1.0.0",
+  "description": "Pranav Dwivedi \u2014 Independent Portfolio Website & Official Knowledge Graph Entity Home | Systems Engineer, AI Builder & 3x Champion Cricket Captain (#7, Destroyers CC, RDCA)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs && node scripts/validate.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "keywords": [
+    "Pranav Dwivedi",
+    "Pranav Pramod Dwivedi",
+    "portfolio",
+    "software engineer",
+    "AI agents",
+    "cricketer",
+    "Destroyers Cricket Club",
+    "Rewa Cricket",
+    "RDCA"
+  ],
+  "author": "Pranav Pramod Dwivedi <hkdykk22@gmail.com>",
+  "license": "MIT"
+}

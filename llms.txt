@@ -1,0 +1,26 @@
+# Pranav Dwivedi
+> Systems Engineer & AI Systems Builder • 3x Champion Cricket Captain (#7, Destroyers CC)
+> Rewa Division Cricket Association (RDCA) • Madhya Pradesh, India
+
+## Core Overview
+Pranav Dwivedi (Pranav Pramod Dwivedi) is an Indian systems developer and competitive athlete. He creates autonomous AI agents that operate directly on Android and Linux devices with persistent memory and hardware tool calling, while captaining Destroyers Cricket Club (DES) to three consecutive championships in the Atal Bihari Vajpayee Memorial Tournament.
+
+## Primary Sections
+- [Overview](https://pranav-dwivedi.pages.dev/): Main landing page with dual-discipline showcase and verified entity anchors.
+- [Engineering Projects](https://pranav-dwivedi.pages.dev/engineering): Detailed breakdown of JARVIS, Cricket Motion Analysis, Axiom, VISA-PAY 2.0, and PiXel Arena.
+- [Cricket Dossier](https://pranav-dwivedi.pages.dev/cricket): 34-match telemetry against Dread Eleven, 1,435 runs (all-time leader), 66 wickets (all-time leader), 3 championships.
+- [About & Philosophy](https://pranav-dwivedi.pages.dev/about): Personal background, technical principles, and dual pursuit ethos.
+- [Contact Channels](https://pranav-dwivedi.pages.dev/contact): Direct communication and collaboration channels.
+
+## Verified Machine-Readable APIs
+- [Full LLM Context Dossier](https://pranav-dwivedi.pages.dev/llms-full.txt): Comprehensive, un-truncated context dossier for AI systems.
+- [Profile JSON](https://pranav-dwivedi.pages.dev/profile.json): Structured JSON schema for search engines and programmatic consumption.
+- [Raw Markdown Resume](https://pranav-dwivedi.pages.dev/resume.md): Clean markdown dossier formatted for LLM context windows.
+
+## Verified Canonical Entity Graph (sameAs)
+- GitHub Profile: https://github.com/pranav-pramod-dwivedi
+- RDCA Central Registry: https://rewa-cricket-division.vercel.app/players/pranav-dwivedi/
+- Destroyers CC Franchise Portal: https://destroyers-rewacricket.pages.dev/players/pranav-dwivedi
+- ABV Memorial Tournament Hub: https://abv-rewacricket.pages.dev/
+- CricHeroes Association 79: https://cricheroes.com/association/79/rewa-divisional-cricket-association/home
+- Official Instagram: https://www.instagram.com/destroyers_rewa

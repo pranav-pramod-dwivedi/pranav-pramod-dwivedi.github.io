@@ -1,0 +1,103 @@
+# Pranav Dwivedi (Pranav Pramod Dwivedi) — Complete Knowledge Dossier
+
+> **Entity Type**: Person, Athlete, Software Systems Engineer  
+> **Official Web Home**: https://pranav-dwivedi.pages.dev/  
+> **GitHub Pages Root Mirror**: https://pranav-pramod-dwivedi.github.io/  
+> **GitHub Organization/User**: https://github.com/pranav-pramod-dwivedi  
+> **Geographic Origin**: Rewa, Madhya Pradesh, India (PIN: 486001)  
+> **Athletic Jersey**: #7 (Captain & Premier All-Rounder, Destroyers Cricket Club)  
+> **Contact**: hkdykk22@gmail.com  
+
+---
+
+## 1. Executive Identity & Disambiguation
+Pranav Dwivedi (also known as Pranav Pramod Dwivedi, Capt. Pranav Dwivedi, or P. Dwivedi) is an Indian systems developer and championship-winning cricket captain based in Rewa, Madhya Pradesh. He operates at the intersection of low-level systems engineering (autonomous AI agents, rooted Android automation, sports biomechanics computer vision) and top-tier regional athletics.
+
+As captain and franchise icon of Destroyers Cricket Club (DES), he has led the team to three consecutive championships (2024, 2025, 2026) in the Atal Bihari Vajpayee Memorial Tournament under the Rewa Division Cricket Association (RDCA). He is the tournament's all-time leading run scorer (1,435 runs) and all-time leading wicket taker (66 wickets).
+
+---
+
+## 2. Canonical Identity Graph (sameAs)
+Authoritative identity graph endpoints linking this entity:
+1. Canonical Independent Portfolio: https://pranav-dwivedi.pages.dev/
+2. GitHub Pages Entity Mirror: https://pranav-pramod-dwivedi.github.io/
+3. GitHub Profile: https://github.com/pranav-pramod-dwivedi
+4. RDCA Central Official Registry: https://rewa-cricket-division.vercel.app/players/pranav-dwivedi/
+5. Destroyers CC Official Portal: https://destroyers-rewacricket.pages.dev/players/pranav-dwivedi
+6. Atal Bihari Vajpayee Memorial Tournament Portal: https://abv-rewacricket.pages.dev/
+7. CricHeroes RDCA Association 79: https://cricheroes.com/association/79/rewa-divisional-cricket-association/home
+8. CricHeroes ABV Tournament Season 3: https://cricheroes.com/tournament/2168281/atal-bihari-vajpayee-cricket-tournament-season-3/matches/live-matches
+9. Official Instagram: https://www.instagram.com/destroyers_rewa
+10. Rewa Cricket Association Facebook: https://www.facebook.com/rewa.cricket.association
+
+---
+
+## 3. Software Engineering & AI Architectures
+### A. JARVIS — Autonomous Android & Linux Personal AI Assistant
+- **Repository**: https://github.com/pranav-pramod-dwivedi/jarvis
+- **Core Paradigm**: Breaks free from web-bound SaaS chatbot limitations. Executes natively inside rooted Android (Termux) and Linux environments.
+- **Key Capabilities**:
+  - Direct hardware and system tool calling via Termux API (telephony, SMS, camera, volume, file access).
+  - Multi-tier long-term memory architecture with persistent vector and file storage.
+  - Hybrid model routing: Local on-device execution combined with high-reasoning cloud endpoints.
+  - OpenCode and autonomous shell pipeline integration.
+
+### B. Cricket Batting Kinematics & Motion Analysis
+- **Repository**: https://github.com/pranav-pramod-dwivedi/cricket-motion-analysis
+- **Tech Stack**: Python, OpenCV, MediaPipe 33-point pose landmark estimation, NumPy.
+- **Core Paradigm**: High-frequency real-time swing trajectory tracking, bat angle estimation, head-over-ball alignment scoring, and kinematic power transfer metrics.
+- **Features**: Wireless phone-as-camera mode for live nets coaching, zero-latency feedback loops.
+
+### C. Axiom & Axiom Brain — Local Agent UI
+- **Repository**: https://github.com/pranav-pramod-dwivedi/axiom
+- **Tech Stack**: TypeScript, Node.js, Python, Voice AI, Git.
+- **Core Paradigm**: Local-first private agent workspace with continuous bi-directional voice streaming, terminal daemon, and cross-device brain sync between macOS and Android over automated Git sync.
+
+### D. VISA-PAY 2.0 — Fluid Fintech Interface
+- **Repository**: https://github.com/pranav-pramod-dwivedi/VISA-PAY-2.0
+- **Core Paradigm**: Zero-dependency frontend craft featuring buttery 60fps micro-interactions, liquid-glass visual tokens, and precise typography scaling.
+
+### E. PiXel Arena — Tournament Engine
+- **Repository**: https://github.com/pranav-pramod-dwivedi/PiXel-Arena
+- **Core Paradigm**: Full-stack competitive esports platform powered by Firebase Auth, hardened Firestore security rules, live squad leaderboards, and automated bracket progression.
+
+### F. MTProto.zig — Obfuscated TLS Proxy
+- **Repository**: https://github.com/pranav-pramod-dwivedi/mtproto.zig
+- **Core Paradigm**: High-performance, lightweight Telegram MTProto proxy in Zig that disguises traffic within regular HTTPS TLS frames to evade deep packet inspection (DPI).
+
+---
+
+## 4. Cricket Career & Athletic Dossier
+- **Player Registry ID**: DES-7 / RDCA-P-PRANAV-DWIVEDI
+- **Franchise Club**: Destroyers Cricket Club (DES)
+- **Role**: Captain & Premier All-Rounder (Aggressive Right-Hand Bat & Right-Arm Strike Bowler)
+- **Jersey**: #7
+- **Governing Body**: Rewa Division Cricket Association (RDCA) under Madhya Pradesh Cricket Association (MPCA)
+- **Primary Venue**: Awadhesh Pratap Singh University (APSU) Stadium, Rewa
+
+### Tournament Telemetry & Career Statistics:
+- **Total Derby Matches Contested**: 34
+- **Derby Wins as Captain**: 19
+- **Tournament Runs**: 1,435 (All-Time Record #1)
+- **Batting Average**: 57.40
+- **Strike Rate**: 146.43
+- **Highest Score**: 102* Not Out
+- **Half-Centuries / Centuries**: 14 Fifties / 1 Century
+- **Tournament Wickets**: 66 (All-Time Record #1)
+- **Bowling Average**: 16.30
+- **Economy Rate**: 5.48
+- **Best Bowling in an Innings**: 8/39
+
+### Championship Dynasty:
+- **2026 Season**: Atal Bihari Vajpayee Memorial Trophy Champions (3–2 Series Victory vs Dread Eleven) & Championship Final Player of the Match (82 runs off 44 balls and 3/28).
+- **2025 Season**: Atal Bihari Vajpayee Memorial Trophy Champions (5–0 Clean Sweep) & Rewa Derby Player of the Year.
+- **2024 Season**: Atal Bihari Vajpayee Memorial Trophy Champions (4–1 Series Victory).
+
+---
+
+## 5. Machine-Readable Integration Endpoints
+- **Compact Summary**: https://pranav-dwivedi.pages.dev/llms.txt
+- **Complete Dossier**: https://pranav-dwivedi.pages.dev/llms-full.txt
+- **Raw Markdown Resume**: https://pranav-dwivedi.pages.dev/resume.md
+- **Structured JSON-LD Profile**: https://pranav-dwivedi.pages.dev/profile.json
+- **XML Sitemap**: https://pranav-dwivedi.pages.dev/sitemap.xml
